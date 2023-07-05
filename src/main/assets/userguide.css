@@ -1,0 +1,25 @@
+body{
+    max-width:95%;
+    margin: auto;
+    text-align: center;
+}
+
+.image{
+    height:auto;
+    max-width:40%;
+}
+
+h1 {
+    font-size: 2.5em; 
+}
+  
+h2 {
+    font-size: 1.875em; 
+}
+
+@media screen and (max-width:480px){
+    .image{
+        height:auto;
+        max-width:95%;
+    }
+}
